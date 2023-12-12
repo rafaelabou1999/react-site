@@ -34,7 +34,7 @@ const Part1 = () => {
             icon={faPhone}
             className="mt-[1.7rem] text-[#cda274] bg-[#f4f0ec] p-[1.5rem] text-[1.5rem] rounded-[50%]"
           />
-          <div className="mt-[1.8rem] ms-[1rem] text-slate-800">
+          <div className="h2Part1 mt-[1.8rem] ms-[1rem] text-slate-800">
             <h2 className="phone cursor-pointer text-[1.4rem] font-bold hover:text-[#cda274] transition-all ease-in-out delay-[.1s]">
               012345678
             </h2>

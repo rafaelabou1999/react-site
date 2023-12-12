@@ -134,7 +134,7 @@ function App() {
         <Banner />
       </motion.div>
 
-      <div className="allCards mt-[12rem] flex flex-row justify-center gap-[4.7rem]">
+      <div className="allCards mt-[12rem] flex flex-row justify-center gap-[4.7rem] md:gap-[2rem]">
         <Card
           title="Interior Design"
           text="Enhancing the interior to achieve a healthier environment for the people using right space."

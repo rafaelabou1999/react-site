@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import "./index.css";
 const CardPart2 = ({ title, text, city, img }) => {
   return (
-    <div className=" bg-slate-200 text-slate-800 rounded-[2rem] h-xl xl:w-2xl p-[2rem] sm:w-[120%] md:w-[43%] md:h-2xl ">
+    <div className="card2 bg-slate-200 text-slate-800 rounded-[2rem] h-xl xl:w-2xl p-[2rem] sm:w-[120%] md:w-[43%] md:h-2xl ">
       <div className="flex flex-row gap-[1rem]">
         <img
           src={img}

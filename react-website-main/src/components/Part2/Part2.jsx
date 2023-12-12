@@ -14,7 +14,7 @@ const Part2 = () => {
   return (
     <div
       id="part2"
-      className="mt-[10rem] pb-[8rem]  bg-slate-100 p-[2rem] w-[100%] md:w-[75%] xl:w-[75%] mx-auto"
+      className="mt-[10rem] pb-[8rem]  bg-slate-100 p-[2rem] w-[100%] md:w-[80%] xl:w-[75%] mx-auto"
     >
       <h2 className="pt-[4rem] text-center font-serif font-bold  text-[2rem]">
         What People Think <br />
@@ -28,7 +28,7 @@ const Part2 = () => {
           variants={animationVariants}
           transition={{ duration: 2 }}
         >
-          <div className="card flex flex-wrap justify-center flex-row gap-[4rem] p-[2rem]">
+          <div className="flex flex-wrap justify-center flex-row gap-[4rem] md:gap-[1.5rem] p-[2rem]">
             <CardPart2
               title="Lisa Clairton"
               img="https://assets-global.website-files.com/6194e0af852e05a5be106504/61a5d70ad9b5876274e17016_client-image-1.jpg"

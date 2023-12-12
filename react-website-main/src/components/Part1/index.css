@@ -46,10 +46,29 @@
   }
 
   .part1 {
-    margin-left: 4rem !important;
+    margin-left: 6rem !important;
   }
 
   .phone {
     font-size: 1.3rem !important;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
+  .image {
+    padding-left: 10px;
+  }
+
+  .h2Part1 h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .part1 {
+    margin-left: 6rem !important;
+    margin-right: 4rem !important;
+  }
+
+  .image {
+    width: 16rem;
   }
 }
