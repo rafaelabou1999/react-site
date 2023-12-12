@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+  .text {
+    left: 50% !important;
+    transform: translate(-30%, 0);
+    top: 5rem !important;
+
+    width: 30rem;
+  }
+
+  .text h2 {
+    font-size: 1.7rem;
+  }
+
+  .text p {
+    width: 60%;
+  }
+
+  img {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  .text h2 {
+    font-size: 2rem;
+  }
+
+  .text p {
+    width: 80%;
+  }
+
+  .text {
+    left: 21% !important;
+    transform: translate(0, 0);
+    top: 5rem !important;
+
+    width: 30rem;
+  }
+}
