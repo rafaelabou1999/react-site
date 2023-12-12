@@ -8,7 +8,7 @@ const Banner = () => {
         src="https://assets-global.website-files.com/6194e0af852e05a5be106504/61a60615af62665c8c5dded2_hero-area-image.jpg"
         className="img h-[36rem] w-full object-cover border-l-b-2 rounded-bl-[10rem]"
       />
-      <div className="text absolute top-[10rem] left-[15rem]  text-start">
+      <div className="text absolute top-[7rem] left-[13.5rem]  text-start">
         <h2 className=" font-serif font-bold text-[3.2rem] text-grey-800 ">
           Let's Create Your
           <br /> Dream Interior

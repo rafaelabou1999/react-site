@@ -52,18 +52,45 @@ function App() {
         />
         <div className="desktop-menu">
           <ul className="flex flex-row gap-[2rem] mt-[.6rem]">
-            <li>Home</li>
             <li>
-              <a href="#part1">About</a>
+              <a
+                className="hover:text-[#CDA274] transition-all delay-[.2s]"
+                href="#"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#part2">Services</a>
+              <a
+                className="hover:text-[#CDA274] transition-all delay-[.2s]"
+                href="#part1"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="#part3">Projects</a>
+              <a
+                className="hover:text-[#CDA274] transition-all delay-[.2s]"
+                href="#part2"
+              >
+                Testimonials
+              </a>
             </li>
             <li>
-              <a href="#part4">Contact us</a>
+              <a
+                className="hover:text-[#CDA274] transition-all delay-[.2s]"
+                href="#part3"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                className="hover:text-[#CDA274] transition-all delay-[.2s]"
+                href="#part4"
+              >
+                Contact us
+              </a>
             </li>
           </ul>
         </div>
@@ -76,17 +103,19 @@ function App() {
 
         <div
           style={{ display: active ? "block" : "none" }}
-          className=" bg-white text-black text-center absolute top-[5rem] h-[16rem] pt-[1rem] text-[1.6rem] left-0 right-0 z-10"
+          className=" burger bg-white text-slate-600 text-center absolute top-[5rem] h-[16rem] pt-[1rem] text-[1.6rem] left-0 right-0 z-10 "
         >
           <ul>
-            <li onClick={handleMenuItem}>Home</li>
-            <li onClick={handleMenuItem}>
+            <li className="pb-[.3rem]" onClick={handleMenuItem}>
+              Home
+            </li>
+            <li className="pb-[.3rem]" onClick={handleMenuItem}>
               <a href="#part1">About</a>
             </li>
-            <li onClick={handleMenuItem}>
-              <a href="#part2">Services</a>
+            <li className="pb-[.3rem]" onClick={handleMenuItem}>
+              <a href="#part2">Testimonials</a>
             </li>
-            <li onClick={handleMenuItem}>
+            <li className="pb-[.3rem]" onClick={handleMenuItem}>
               <a href="#part3">Projects</a>
             </li>
             <li onClick={handleMenuItem}>

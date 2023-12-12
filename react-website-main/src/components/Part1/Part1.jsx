@@ -6,7 +6,9 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 const Part1 = () => {
-  const [ref, inView] = useInView();
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
 
   const animationVariants = {
     hidden: { opacity: 0, x: 50 },
